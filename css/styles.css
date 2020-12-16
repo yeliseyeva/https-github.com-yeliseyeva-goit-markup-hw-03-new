@@ -1,0 +1,100 @@
+/* акцент (голубой) #2196F3 */
+/* основной цвет (черн) #212121 */
+/* вторичный цвет описание (сер) #757575 */
+/* белый #FFFFFF */
+/* белый с прозрасностью rgba(255,255,255,0,6) */
+
+:root{
+    --primary-text-color: #212121;
+    --secondary-text-color:#757575;
+    --accent-text-color:#2196F3;
+}
+
+body{
+    background-color: #fff;
+    color:var(--primary-text-color);
+}
+
+p{
+    color:var(--secondary-text-color) ;
+}
+
+.accent{
+    color:var(--accent-text-color)) ;
+}
+
+.logo{
+    color:var(--primary-text-color);
+}
+
+ul{
+    list-style: none;
+}
+
+/* Шапка */
+
+header{
+    background-color: #fff;
+}
+
+.nav a{
+    color:var(--primary-text-color) ;
+}
+
+.address a{
+    color: var(--secondary-text-color);
+}
+
+.nav a:hover,
+.nav a:focus,
+.address a:hover,
+.address a:focus{
+    color:var(--accent-text-color) ;
+}
+
+/* Герой */
+.hero{
+    background-color: #2F303A;
+}
+
+.hero-title{
+    color: #fff;
+}
+
+.button{
+    background-color:var(--accent-text-color);
+    color: #fff;
+}
+
+/* Чем Мы занимаемся */
+
+.description-page{
+    background-color: #fff;
+}
+
+/* Наша команда */
+
+.workers{
+    background-color: #F5F4FA;
+}
+
+/* Подвал */
+
+footer{
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+
+.logo-footer{
+    color: #fff;
+}
+
+.footer-link{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Портфолио */
+
+
+
+
