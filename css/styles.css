@@ -13,14 +13,19 @@
 body{
     background-color: #fff;
     color:var(--primary-text-color);
+    font-family: Roboto;
 }
 
 p{
     color:var(--secondary-text-color) ;
 }
 
+b{
+    color: var(--primary-text-color);
+}
+
 .accent{
-    color:var(--accent-text-color)) ;
+    color:var(--accent-text-color) ;
 }
 
 .logo{
@@ -62,7 +67,7 @@ header{
 }
 
 .button{
-    background-color:var(--accent-text-color);
+    background-color: var(--accent-text-color);
     color: #fff;
 }
 
@@ -95,6 +100,14 @@ footer{
 
 /* Портфолио */
 
+.filter{
+    background-color: #F5F4FA;
+}
 
+.filter:hover,
+.filter:focus{
+    color: #FFFFFF;
+    background-color: var(--accent-text-color);
+}
 
 
