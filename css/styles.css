@@ -13,7 +13,11 @@
 body{
     background-color: #fff;
     color:var(--primary-text-color);
+
     font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+
 }
 
 p{
@@ -30,16 +34,36 @@ b{
 
 .logo{
     color:var(--primary-text-color);
+
+    font-family:Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+
 }
 
 ul{
     list-style: none;
 }
 
+h2{
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
 /* Шапка */
 
 header{
     background-color: #fff;
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .nav a{
@@ -64,11 +88,25 @@ header{
 
 .hero-title{
     color: #fff;
+  
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .button{
     background-color: var(--accent-text-color);
     color: #fff;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* Чем Мы занимаемся */
@@ -76,11 +114,34 @@ header{
 .description-page{
     background-color: #fff;
 }
+.description-page  h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.description-page  p{
+    font-weight: 400;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+}
 
 /* Наша команда */
 
 .workers{
     background-color: #F5F4FA;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+
+    letter-spacing: 0.03em;
+}
+
+.workers b{
+    font-weight: 500;
 }
 
 /* Подвал */
@@ -88,6 +149,11 @@ header{
 footer{
     background-color: #2F303A;
     color: #FFFFFF;
+
+    font-weight: 400;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
 }
 
 .logo-footer{
@@ -102,6 +168,13 @@ footer{
 
 .filter{
     background-color: #F5F4FA;
+
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    letter-spacing: 0.03em;
 }
 
 .filter:hover,
@@ -110,4 +183,18 @@ footer{
     background-color: var(--accent-text-color);
 }
 
+.projects b{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
 
+    letter-spacing: 0.06em;
+}
+
+.projects p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+
+    letter-spacing: 0.03em;
+}
