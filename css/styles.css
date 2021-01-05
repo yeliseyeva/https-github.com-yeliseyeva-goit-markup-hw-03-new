@@ -42,6 +42,7 @@ b{
 }
 
 .logo{
+
     color:var(--primary-text-color);
 
     font-family:Raleway, sans-serif;
@@ -82,13 +83,45 @@ header{
     letter-spacing: 0.02em;
 }
 
+.header .conteiner{
+    display: flex;
+    align-items: center;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo-header{
+    margin-right: 93px;
+}
+
+.nav{
+    display:flex;
+}
+
+.nav li:not(:last-child){
+    margin-right: 50px;
+}
+
 .nav a{
+    display:block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color:var(--primary-text-color) ;
 }
 
 .address{
+    display: flex;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: auto;
+}
+
+.address li:not(:last-child){
+    margin-right: 50px;
 }
 
 .address a{
