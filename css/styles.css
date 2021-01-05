@@ -28,10 +28,16 @@ b{
     color: var(--primary-text-color);
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
 .conteiner{
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid tomato;
@@ -181,6 +187,14 @@ header{
     margin-bottom: 0;
 }
 
+.advantages{
+display: flex;
+}
+
+.advantages li:not(:last-child){
+    margin-right: 30px;
+}
+
 .advantages h3{
     margin-bottom: 10px;
 }
@@ -214,6 +228,25 @@ header{
     margin-bottom: 0;
 }
 
+.work-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work-list li{
+    width: calc((100% - 60px)/3);
+    margin-right: 30px;
+}
+
+.work-list li:nth-child(3n){
+    margin-right: 0px;
+}
+
+.box-img{
+    padding-bottom: 94px;
+}
+
 /* Наша команда */
 
 .workers{
@@ -224,6 +257,23 @@ header{
     line-height: 1.18;
 
     letter-spacing: 0.03em;
+}
+
+.workers .conteiner{
+    padding-top: 94px;
+}
+
+.workers ul{
+    display: flex;
+}
+
+.workers li{
+    width: 270px;
+    height: 368px;
+}
+
+.workers li:not(:last-child){
+    margin-right: 30px;
 }
 
 .workers b{
