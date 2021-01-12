@@ -146,6 +146,13 @@ header{
     color:var(--accent-text-color) ;
 }
 
+/* Секции */
+
+.description-page{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* Герой */
 .hero{
     background-color: #2F303A;
@@ -195,11 +202,6 @@ header{
 display: flex;
 }
 
-.advantages-conteiner{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .advantages li:not(:last-child){
     margin-right: 30px;
 }
@@ -234,7 +236,7 @@ display: flex;
     letter-spacing: 0.03em;
 }
 
-.description-page ul, p {
+.description-page p {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -254,10 +256,6 @@ display: flex;
     margin-right: 0px;
 }
 
-.box-img{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 /* Наша команда */
 
@@ -271,13 +269,8 @@ display: flex;
     letter-spacing: 0.03em;
 }
 
-.workers .conteiner{
-    padding-top: 94px;
-}
-
 .workers ul{
     display: flex;
-    padding-bottom: 94px;
 }
 
 .workers li{
@@ -320,6 +313,9 @@ footer{
     line-height: 1.71;
 
     letter-spacing: 0.03em;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 address{
@@ -351,22 +347,12 @@ footer li:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.footer-conteiner{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
 /* Портфолио */
-
-.portfolio-conteiner{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .filter-conteiner{
     display: flex;
     justify-content: center;
-    margin-bottom: 56px;
+    margin-bottom: 50px;
 }
 
 .filter{
